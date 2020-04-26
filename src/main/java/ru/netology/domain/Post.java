@@ -85,11 +85,11 @@ public class Post {
         this.moreInfo = moreInfo;
     }
 
-    public PostType getPostType() {
+    public String getPostType() {
         return postType;
     }
 
-    public void setPostType(PostType postType) {
+    public void setPostType(String postType) {
         this.postType = postType;
     }
 }
