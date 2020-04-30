@@ -2,9 +2,9 @@ package ru.netology.domain;
 
 public class Post {
     private int postId;
-    private String namePost;
-    private String textPost;
-    private int data;
+    private String namePost; // заголовок поста. можно было указать как headPost
+    private String textPost; // содержимое поста
+    private int date;
     private CommentsInfo commentsInfo;
     private LikesInfo likeInfo;
     private SharedInfo sharedInfo;
@@ -38,11 +38,11 @@ public class Post {
     }
 
     public int getData() {
-        return data;
+        return date;
     }
 
     public void setData(int data) {
-        this.data = data;
+        this.date = date;
     }
 
     public CommentsInfo getCommentsInfo() {
