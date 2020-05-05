@@ -1,6 +1,6 @@
 package ru.netology.domain;
 
-public class SharedInfo {
+public class RepostsInfo {
     private int count;
     private String urlImage;
     private boolean shared;

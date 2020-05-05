@@ -7,9 +7,8 @@ public class Post {
     private int date;
     private CommentsInfo commentsInfo;
     private LikesInfo likeInfo;
-    private SharedInfo sharedInfo;
+    private RepostsInfo repostsInfo; // SharedInfo
     private ViewsInfo viewsInfo;
-    private MoreInfo moreInfo;
     private String postType;
 
 
@@ -61,12 +60,12 @@ public class Post {
         this.likeInfo = likeInfo;
     }
 
-    public SharedInfo getSharedInfo() {
-        return sharedInfo;
+    public RepostsInfo getSharedInfo() {
+        return repostsInfo;
     }
 
-    public void setSharedInfo(SharedInfo sharedInfo) {
-        this.sharedInfo = sharedInfo;
+    public void setSharedInfo(RepostsInfo sharedInfo) {
+        this.repostsInfo = sharedInfo;
     }
 
     public ViewsInfo getViewsInfo() {
@@ -75,14 +74,6 @@ public class Post {
 
     public void setViewsInfo(ViewsInfo viewsInfo) {
         this.viewsInfo = viewsInfo;
-    }
-
-    public MoreInfo getMoreInfo() {
-        return moreInfo;
-    }
-
-    public void setMoreInfo(MoreInfo moreInfo) {
-        this.moreInfo = moreInfo;
     }
 
     public String getPostType() {
